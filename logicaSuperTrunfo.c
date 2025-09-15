@@ -187,20 +187,20 @@ int main(){
                 if (areaCarta1 > areaCarta2){
                     printf("**** Carta 1, %s venceu !! **** \n\n", nomeCarta1);
                     printf("Os atributos das cartas são: \n");
-                    printf("Carta 1: %s. Área: %.2f \n", nomeCarta1, areaCarta1);
-                    printf("Carta 2: %s. Área: %.2f \n\n", nomeCarta2, areaCarta2);
+                    printf("Carta 1: %f. Área: %.2f \n", nomeCarta1, areaCarta1);
+                    printf("Carta 2: %f. Área: %.2f \n\n", nomeCarta2, areaCarta2);
                     printf("==== Jogo Encerrado !! ==== \n\n");
                 } else if (areaCarta1 < areaCarta2){
-                    printf("**** Carta 2, %s venceu !! **** \n\n", nomeCarta2);
+                    printf("**** Carta 2, %f venceu !! **** \n\n", nomeCarta2);
                     printf("Os atributos das cartas são: \n");
-                    printf("Carta 1: %s. Área: %.2f \n", nomeCarta1, areaCarta1);
-                    printf("Carta 2: %s. Área: %.2f \n\n", nomeCarta2, areaCarta2);
+                    printf("Carta 1: %f. Área: %.2f \n", nomeCarta1, areaCarta1);
+                    printf("Carta 2: %f. Área: %.2f \n\n", nomeCarta2, areaCarta2);
                     printf("==== Jogo Encerrado !! ==== \n\n");
                 } else if (areaCarta1 == areaCarta2){
                     printf("**** Empate !! **** \n\n");
-                    printf("A carta 1 %s e a Carta 2 %s empataram \n", nomeCarta1, nomeCarta2);
-                    printf("Carta 1: %s. Área: %.2f \n", nomeCarta1, areaCarta1);
-                    printf("Carta 2: %s. Área: %.2f \n\n", nomeCarta2, populacaoCarta2);
+                    printf("A carta 1 %f e a Carta 2 %s empataram \n", nomeCarta1, nomeCarta2);
+                    printf("Carta 1: %f. Área: %.2f \n", nomeCarta1, areaCarta1);
+                    printf("Carta 2: %f. Área: %.2f \n\n", nomeCarta2, areaCarta2);
                     printf("==== Jogo Encerrado !! ==== \n\n");
                 }
         break;
@@ -208,13 +208,22 @@ int main(){
             printf("\n ===== Comparação escolhida:  ===== \n");
             printf("\n =====          PIB           ===== \n\n");
                 if (pibCarta1 > pibCarta2){
-                printf("**** Carta 1 venceu !! **** \n\n");
+                 printf("**** Carta 1, %f venceu !! **** \n\n", nomeCarta1);
+                    printf("Os atributos das cartas são: \n");
+                    printf("Carta 1: %f. Pib: %.2f \n", nomeCarta1, pibCarta1);
+                    printf("Carta 2: %f. Pib: %.2f \n\n", nomeCarta2, pibCarta2);
                 printf("==== Jogo Encerrado !! ==== \n\n");
                 } else if (pibCarta1 > pibCarta2){
-                printf("**** Carta 2 venceu !! **** \n\n");                                      
+                printf("**** Carta 2, %f venceu !! **** \n\n", nomeCarta2);
+                    printf("Os atributos das cartas são: \n");
+                    printf("Carta 1: %f. Pib: %.2f \n", nomeCarta1, pibCarta1);
+                    printf("Carta 2: %f. Pib: %.2f \n\n", nomeCarta2, pibCarta2);                                      
                 printf("==== Jogo Encerrado !! ==== \n\n");
                 } else if (pibCarta1 > pibCarta2){
                     printf("**** Empate !! **** \n\n");
+                    printf("A carta 1 %f e a Carta 2 %s empataram \n", nomeCarta1, nomeCarta2);
+                    printf("Carta 1: %f. Pib: %.2f \n", nomeCarta1, pibCarta1);
+                    printf("Carta 2: %f. Pib: %.2f \n\n", nomeCarta2, pibCarta2);
                     printf("==== Jogo Encerrado !! ==== \n\n");
                 }
         break;
@@ -222,13 +231,22 @@ int main(){
            printf("\n ===== Comparação escolhida:  ===== \n");
            printf("\n =====   Pontos turísticos    ===== \n\n");
                 if (pibCarta1 > pibCarta2){
-                printf("**** Carta 1 venceu !! **** \n\n");
+               printf("**** Carta 1, %s venceu !! **** \n\n", nomeCarta1);
+                    printf("Os atributos das cartas são: \n");
+                    printf("Carta 1: %s. Pontos turísticos: %.2f \n", nomeCarta1, pontosCarta1);
+                    printf("Carta 2: %s. Pontos turísticos: %.2f \n\n", nomeCarta2, pontosCarta2);
                 printf("==== Jogo Encerrado !! ==== \n\n");
                 } else if (pibCarta1 > pibCarta2){
-                printf("**** Carta 2 venceu !! **** \n\n");
+                printf("**** Carta 2, %s venceu !! **** \n\n", nomeCarta2);
+                    printf("Os atributos das cartas são: \n");
+                    printf("Carta 1: %s. Pontos turísticos: %.2f \n", nomeCarta1, pontosCarta1);
+                    printf("Carta 2: %s. Pontos turísticos: %.2f \n\n", nomeCarta2, pontosCarta2);  
                 printf("==== Jogo Encerrado !! ==== \n\n");
                 } else if (pibCarta1 > pibCarta2){
                     printf("**** Empate !! **** \n\n");
+                    printf("A carta 1 %s e a Carta 2 %s empataram \n", nomeCarta1, nomeCarta2);
+                    printf("Carta 1: %s. Pontos turísticos: %.2f \n", nomeCarta1, pontosCarta1);
+                    printf("Carta 2: %s. Pontos turístico: %.2f \n\n", nomeCarta2, pontosCarta2);
                     printf("==== Jogo Encerrado !! ==== \n\n");
                 }  
         break;
